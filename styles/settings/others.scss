@@ -1,0 +1,62 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-background-gray{
+	background-color: #6C7076;
+}
+.color-background-red{
+	background-color: #E62A38;
+}
+.color-background-sky{
+	background-color: #F5F5F5;
+}
+.bold-p>span{
+	font-weight: bold;
+}
+.bold-p{
+	color: #ffffff;
+	font-weight: normal;
+	padding-top: 8.35% !important;
+	padding-left: 8.35% !important;
+	padding-bottom: 3% !important;
+	@include tablets {
+		padding-left: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	@include phones {
+		padding-left: 0px !important;
+		padding-bottom: 0px !important;
+	}
+}
+.title-color-gray{
+	color: #5E5E5E !important;
+}
+.paragraph-color-gray{
+	color: #8F8F8F !important;
+}
+.l-img-witdhwr{
+	width: 50%;
+	@include phones {
+	width: 55%;
+}
+}
+.img-pad{
+	box-sizing: border-box;
+	padding-top: 100px;
+	padding-bottom: 30px;
+
+	@include tablets {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+.img-pad-last{
+	box-sizing: border-box;
+	padding-top: 40px;
+
+	@include tablets {
+		padding-top: 0;
+	}
+}
